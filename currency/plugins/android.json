@@ -1,0 +1,25 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-admob": {
+      "PACKAGE_NAME": "io.doviz"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "io.doviz"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-connectivity-monitor": {
+      "PACKAGE_NAME": "io.doviz"
+    },
+    "cordova-play-services-version-adapter": {
+      "PACKAGE_NAME": "io.doviz"
+    }
+  }
+}

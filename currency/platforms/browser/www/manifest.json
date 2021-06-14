@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Anlık Döviz Takip",
+  "short_name": "Anlık Döviz Takip",
+  "version": "io.doviz",
+  "description": "Anlık Döviz Takip",
+  "author": "Anlık Döviz Takip",
+  "icons": [],
+  "start_url": "index.html"
+}

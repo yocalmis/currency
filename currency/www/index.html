@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="assets/css/materialize.css"  media="screen,projection"/>
+  <!-- Import owlCarousel -->
+  <link type="text/css" rel="stylesheet" href="assets/css/owl.carousel.min.css"/>
+  <link type="text/css" rel="stylesheet" href="assets/css/owl.theme.default.min.css"/>
+  <!-- Import master.css -->
+  <link rel="stylesheet" href="assets/css/master.css">
+  
+  
+  
+	 <script>
+	 
+setInterval(function() {
+
+$("#donus").load('http://dusunsoft.com/doviz/icerik.php');
+$("#donus2").load('http://dusunsoft.com/doviz/altin.php');
+$("#donus3").load('http://dusunsoft.com/doviz/parite.php');
+$("#donus4").load('http://dusunsoft.com/doviz/bist.php');
+
+
+
+}, 1000);
+
+        </script>
+  
+</head>
+<body onload="yukle();">
+  <header>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">DÖVİZ - BORSA - TAKİP</a>
+       <!--   <a href="#" data-target="mobile-demo" class=" sidenav-trigger"><i class="material-icons">menu</i></a>-->
+         <!--   <a href="#" class="menu-search"><i class="material-icons">Ara</i></a>
+         <ul id="nav-mobile" class="right hide-on-med-and-down">
+           <li><a href="#">Tl - Döviz</a></li>
+            <li><a href="#">Altın</a></li>
+            <li><a href="#">Pariteler</a></li>
+            <li><a href="#">Borsa</a></li>
+          </ul>-->
+        </div>
+        <div class="mobile-search">
+          <div class="nav-wrapper">
+            <form>
+              <div class="input-field">
+                <input id="search" type="search" placeholder="Arayın.." required>
+                <label class="label-icon" for="search"><i class="material-icons">Ara</i></label>
+                <i class="search-close material-icons">Kapat</i>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--<div class="sidenav" id="mobile-demo">
+      <div class="mobile-header">
+        <h4>Şehir Seçiniz</h4>
+        <li class="divider"></li>
+      </div>
+     <div class="nav-wrapper">
+        <form>
+          <div class="input-field">
+            <input id="search" type="search" placeholder="Şehir Arayın.." required>
+            <label class="label-icon" for="search"><i class="material-icons">Ara</i></label>
+            <i class="material-icons">close</i>
+          </div>
+        </form>
+      </div>
+      <ul>
+           <li><a href="#">Tl - Döviz</a></li>
+            <li><a href="#">Altın</a></li>
+            <li><a href="#">Pariteler</a></li>
+            <li><a href="#">Borsa</a></li>
+      </ul>
+      <a class="side-close sidenav-close" href="#">Kapat</a>
+    </div>-->
+  </header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <!-- <div class="f-d-r card-panel">
+            <i class="material-icons ">home</i><h5>Londra'ya Hoş Geldiniz</h5>
+          </div> -->
+		  
+		  
+
+
+      <ul class="tabs">
+        <li class="tab col s3"><a class="active" href="#test1"><b>TL - DÖVİZ</b></a></li>
+        <li class="tab col s3"><a  href="#test2"><b>ALTIN</b></a></li>
+        <li class="tab col s3"><a href="#test3"><b>PARİTELER</b></a></li>
+        <li class="tab col s3"><a href="#test4"><b>BİST</b></a></li>
+      </ul>
+  
+    <div id="test1" class="col s12">          <div id="donus">          </div></div>
+    <div id="test2" class="col s12">    <div id="donus2">  </div> </div>
+    <div id="test3" class="col s12">  <div id="donus3"> </div>  </div>
+    <div id="test4" class="col s12"> <div id="donus4"> </div> </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+        <script type="text/javascript" src="cordova.js"></script>
+<!-- jQuery 3.3.1 -->
+<script type="text/javascript" src="assets/js/index.js"></script>
+
+<!-- jQuery 3.3.1 -->
+<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+<!--JavaScript at end of body for optimized loading-->
+<script type="text/javascript" src="assets/js/materialize.js"></script>
+<!-- owlCarousel -->
+<script type="text/javascript" src="assets/js/owl.carousel.js"></script>
+<!-- function.js -->
+<script type="text/javascript" src="assets/js/function.js"></script>
+</body>
+</html>
